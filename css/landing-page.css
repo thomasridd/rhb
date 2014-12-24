@@ -117,6 +117,65 @@ h6 {
     background-size: cover;
 }
 
+.navbar-rhb {
+  background: #fff
+}
+
+/* Navbar title */
+
+.navbar-rhb .navbar-brand {
+    color: lightgray;
+}
+
+/* Focus/hover state for navbar title */
+
+.navbar-rhb .navbar-brand:hover,
+.navbar-rhb .navbar-brand:focus {
+    color: black;
+}
+
+/* Navbar links default color */
+
+.navbar-rhb .navbar-nav > li > a {
+    color: black;
+}
+
+/* Navbar links hover/focus states */
+
+.navbar-rhb .navbar-nav > li > a:hover,
+.navbar-rhb .navbar-nav > li > a:focus {
+    color: pink;
+}
+
+/* Active link colors */
+
+.navbar-rhb .navbar-nav > .active > a, 
+.navbar-rhb .navbar-nav > .active > a:hover, 
+.navbar-rhb .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+
+
+/* Mobile toggle button */
+
+.navbar-rhb .navbar-toggle {
+    border-color: lightgray;
+}
+
+/* Mobile toggle button hover/focus states */
+
+.navbar-rhb .navbar-toggle:hover,
+.navbar-rhb .navbar-toggle:focus {
+    background-color: #DDD;
+}
+
+/* Mobile icon bar colors */
+
+.navbar-rhb .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
